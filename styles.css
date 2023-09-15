@@ -1,8 +1,18 @@
 body {
     background-color: pink;
-    text-align: center;
-    font-size: 60px;
-    font-weight: bold;
-    font-family: serif;
+  
+}
+
+h1 {
     color: white;
+    text-align: center;
+    font-family: serif;
+
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-family: serif;
+
 }
