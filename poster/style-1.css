@@ -1,0 +1,64 @@
+/* Version 1: Poster Shape */
+
+.container {
+    background: #FCE6A8;
+    position: relative;
+    width: 500px;
+    
+  /*   I want my height to be a total of 700px, but there's a 20px padding all around, so I'm giving it a height of 660px (700 - 20 - 20) */
+    height: 660px; 
+    padding: 20px;
+    
+  /*   This makes it horizontally centered */
+  /*   It only works on "display:block" elements */
+    margin: auto;
+    
+  /*   This makes it centered vertically */
+  /*   It's 50% of the height, and subtracting half of the total height of the poster (which is 700px)'*/  
+    margin-top: calc(50vh - 350px);
+}
+
+ h1 {
+  font-size: 80px;
+  font-weight: bold;
+  font-family: 'Courgette';
+  line-height: 0.6;
+  text-align: center;
+  color: crimson;
+  margin-top: 20px;
+
+ }
+.special {
+  font-size: 55px;
+  color: orange;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: Oswald;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 0.5;
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+  font-family: Oswald;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+.pokemon {
+  width: calc(100% - 40px);
+  height: auto;
+  position: absolute;
+  bottom: 20px;
+
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}

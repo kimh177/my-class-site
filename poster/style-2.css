@@ -1,0 +1,47 @@
+/* Version 2: Full Width and Typographic */
+
+body {
+    background-color: #FCE6A8;
+
+}
+.container {
+/* This makes the container full width */
+    width: 100%;
+    font-family: 'Courgette';
+}
+
+#title {
+    font-size: 100px;
+    font-weight: bold;
+    line-height: 0.6;
+    text-align: left;
+    color: crimson;
+    margin-top: calc(50vh - 300px)
+
+  
+   }
+
+.special {
+    font-size: 120px;
+    color: orange;
+    margin-left: 350px;
+  }
+
+  h2 {
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.5;
+    text-align: right;
+  
+  }
+  
+  h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: right;
+  }
+
+.pokemon {
+    display: none
+}

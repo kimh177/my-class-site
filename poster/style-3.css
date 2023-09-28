@@ -1,0 +1,28 @@
+/* Version 3: Ugly */
+
+body {
+    background-color: #99FF00;
+
+}
+.container {
+/* This makes the container full width */
+    width: 100%;
+    font-family: 'Comic Sans MS';
+    font-size: 60px; 
+}
+
+#title {
+
+    font-weight: bold;
+    color: #621932;
+   }
+
+.special {
+    color: #F5C52C;
+    margin-left: 350px;
+  }
+  
+
+.pokemon {
+    display: none
+}
