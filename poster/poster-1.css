@@ -1,7 +1,8 @@
 /* Version 1: Poster Shape */
 
 .container {
-    background: #FCE6A8;
+    background: #2a75bb;
+
     position: relative;
     width: 500px;
     
@@ -34,13 +35,14 @@
   font-family: 'Courgette';
   line-height: 0.6;
   text-align: center;
-  color: crimson;
+  color: #ffcb05;
   margin-top: 20px;
+  margin-bottom: 50px;
 
  }
 .special {
   font-size: 55px;
-  color: orange;
+  color: #c7a008;
 }
 
 h2 {
@@ -48,8 +50,10 @@ h2 {
   font-family: Oswald;
   font-weight: bold;
   text-transform: uppercase;
-  line-height: 0.5;
+  line-height: 0.2;
   text-align: center;
+  color: white;
+
 }
 
 h3 {
@@ -57,21 +61,90 @@ h3 {
   font-family: Oswald;
   text-align: center;
   text-transform: uppercase;
+  color: #c7a008;
+  line-height: 1;
 }
 
+.images {
+  background-color:red;
 
-.pokemon {
+}
+
+.pikachu {
   width: calc(100% - 40px);
   height: auto;
   position: absolute;
-  bottom: 20px;
+  bottom: 18px;
   display: block;
-  margin: auto;
-  
+  left: 16px;
+}
 
+.eevee {
+  width: calc(100% - 40px);
+  height: auto;
+  position: absolute;
+  bottom: 22px;
+  display: block;
+  left: 270px;
+  padding: 5px;
 }
 
 img {
   width: 50%;
-  height: 50%;
+
+}
+
+.felthat {
+  display: none;
+  width: calc(100% - 40px);
+  height: auto;
+  position: absolute;
+  bottom: 30px;
+  left: 15px;
+}
+
+.strawhat {
+  display:none;
+  width: calc(100% - 40px);
+  height: auto;
+  position: absolute;
+  bottom: 22px;
+  left: 270px;
+  padding: 5px;
+}
+
+.container:hover {
+  background: #FCE6A8;
+}
+
+.container:hover #title {
+  color: crimson;
+
+}
+
+.container:hover #location {
+  color: black;
+
+}
+
+.container:hover #dates {
+  color:black; 
+
+}
+
+.container:hover .pikachu {
+  display:none;
+}
+
+.container:hover .felthat {
+  display:block;
+}
+
+.container:hover .eevee {
+  display: none;
+
+}
+
+.container:hover .strawhat {
+  display:block;
 }
