@@ -52,16 +52,21 @@ img {
 
 @font-face {
     font-family: Oswald;
-    src: url(Oswald-Bold.ttf);
+    src: url(Oswald-Regular.ttf);
   }
 
+
+
+
+
  h1 {
-  font-size: 30px;
+  font-size: 33px;
   font-weight: bold;
   font-family: 'Courgette';
   line-height: 0;
   color: crimson;
   letter-spacing: -.08em;
+
  }
 
 .special {
@@ -71,29 +76,31 @@ img {
 h2 {
   font-size: 15px;
   font-family: Oswald;
-  font-weight: bold;
+
   text-transform: uppercase;
   line-height: 1.1;
 
 }
 
 h3 {
-  font-size: 10px;
+  font-size: 12px;
   font-family: Oswald;
   text-transform: uppercase;
+  line-height: 1;
 }
 
 #title {
 
 position:absolute;
-bottom: 28px;
+bottom: 33px;
 left: 40px;
+
 }
 
 #location {
   position: absolute;
   right: 40px;
-  bottom: 35px;
+  bottom: 39px;
 
 }
 
@@ -101,5 +108,6 @@ left: 40px;
   position: absolute;
   right: 40px;
   bottom: 20px;
+
 
 }
