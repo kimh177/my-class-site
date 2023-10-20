@@ -1,0 +1,43 @@
+body {
+    background-color: #F9629F;
+
+
+}
+
+#container {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* transform: translate (-50%, -50%); */
+
+}
+
+.hj {
+    display: flex;
+    flex-wrap: wrap;
+    width: 540px;
+    /* margin-right: 30px; */
+
+}
+
+.cell {
+    width: 30px;
+    height: 30px;
+    /* rotate: 30deg; */
+
+}
+
+.fill {
+    background-color: #ffb347;
+    transition: border-radius 0.3s ease;
+    /* rotate: 30deg; */
+
+
+}
+
+#container:hover .fill {
+    border-radius: 10px;
+  
+
+}
