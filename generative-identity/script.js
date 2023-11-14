@@ -7,3 +7,4 @@ let randomImage = Math.floor(Math.random() * images.length);
 myFlower.style.backgroundImage = "url(" + images[randomImage] + ")";
 
 
+console.log ("hello")
