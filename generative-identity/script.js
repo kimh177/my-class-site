@@ -1,10 +1,9 @@
-let myFlower = document.getElementById("container");
+let letters = document.getElementsByClassName("letter");
 
-let images = ['Group1.png', 'Group2.png', 'Group3.png', 'Group4.png'];
+console.log(letters);
 
-let randomImage = Math.floor(Math.random() * images.length);
+let images = ['image1.png', 'image2.png', 'image3.png', 'image4.png']
 
-myFlower.style.backgroundImage = "url(" + images[randomImage] + ")";
+let randomImage = Math.floor(Math.random() * images.length)
 
-
-console.log ("hello")
+letters[Math.floor(Math.random() * letters.length)].innerHTML = "<img src=" + images[randomImage] + ">";
