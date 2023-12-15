@@ -1,0 +1,37 @@
+
+@font-face {
+    font-family: PetitFormalScript;
+    src: url(PetitFormalScript-Regular.ttf);
+}
+
+
+body {
+    font-size: 96px;
+    letter-spacing: -0.06em;
+    font-family: PetitFormalScript;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }
+   
+  /* img {
+    width: 200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  } */
+
+  .coffee {
+    background-image: url("https://media1.giphy.com/media/9UZZebsksF6ioNLpcl/giphy.gif?cid=6c09b952sph2sh5stessxhybm6roizf65yflz8ddjysnmfio&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+    background-size: cover;
+    background-repeat: no-repeat; 
+  }
+
+  @media screen and (max-width: 320px) {
+    
+    font-size: 16px;
+
+
+
+  }
